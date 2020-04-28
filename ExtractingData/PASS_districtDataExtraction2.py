@@ -4,7 +4,7 @@ import sys, codecs, json
 import openpyxl
 
 # Load the workbook
-path = "DistrictWiseData.xlsx"
+path = "c:/github/airQuality/ExtractingData/DistrictWiseData.xlsx"
 wb = openpyxl.load_workbook(path)
 stateSheet = wb["List of States"]   # separate sheet with stats about each state
 districtSheet = wb["List of Districts"] # separate sheet with stats about each district
@@ -36,14 +36,17 @@ for x in range(1,nTables):
             if(colNumber == 2):
                 activeCol = 2
             else:
-                if(colNumber == 4):
+                if(colNumber == 3):
                     activeCol = 3
-                else:
-                    if(colNumber == 5):
-                        activeCol = 4
+                else: 
+                    if(colNumber == 4):
+                        activeCol = 5
                     else:
-                        if(colNumber == 6):
-                            activeCol = 5
+                        if(colNumber == 5):
+                            activeCol = 6
+                        else:
+                            if(colNumber == 6):
+                                activeCol = 7
             if(activeCol != 0):
                 val = col.text.replace(" ","")
                 start = val.find("[")

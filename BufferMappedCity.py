@@ -4,9 +4,9 @@ import sys, codecs, json
 import openpyxl
 
 # global variables
-distanceThreshold = 100000 # unit is in meters here
-stationList = "c:/github/airQuality/ExtractingData/Station_List.xlsx"
-districtList = "c:/github/airQuality/ExtractingData/DistrictWiseData.xlsx"
+distanceThreshold = 200000 # unit is in meters here
+stationList = "c:/github/airQuality/DownloadedData/Station_List.xlsx"
+districtList = "c:/github/airQuality/DistrictWiseData.xlsx"
 # API key below can be called just from my IP - its super-restricted - can change settigs if needed
 requestUrl = "https://maps.googleapis.com/maps/api/distancematrix/json?origins={}&destinations={}&key=AIzaSyCAanMVI-hfmXrv_-xKh3KHI-x-OqdGoJM"
 

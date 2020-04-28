@@ -58,12 +58,9 @@ for i in range(2, max_row + 1):
                         if elements[0]["distance"]:
                             distance = elements[0]["distance"]
                             curDistance = int(distance["value"])
-                            if nearestDistance == -1:
+                            if nearestDistance == -1 or curDistance < nearestDistance:
                                 nearestDistance = curDistance
-                            else:
-                                if curDistance < nearestDistance:
-                                    nearestDistance = curDistance
-                                    nearestCity = cityData
+                                nearestCity = cityData
             # Only update to nearest city if this meets the threshold limit
             if(nearestDistance <= distanceThreshold): 
                 districtSheet.cell(row = i, column = 4).value = nearestCity

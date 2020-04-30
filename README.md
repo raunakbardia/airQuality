@@ -3,7 +3,7 @@
 Sources:<br />
 Pollution Data - https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing/caaqm-comparison-data <br /><br />
 India Maps:<br />
-Map # 1 - https://github.com/yasersakkaf/Visualize-Women-Harrasment-in-India-using-GeoPandas/tree/master/Igismap<br />
+Map # 1 - https://github.com/yasersakkaf/Visualize-Women-Harrasment-in-India-using-GeoPandas/tree/master/gadm36_IND_shp<br />
 Map # 2 - https://github.com/datameet/maps/tree/master/Districts/Census_2011<br /><br />
 Data Visualization:<br />
 Reference Project - https://github.com/yasersakkaf/Visualize-Women-Harrasment-in-India-using-GeoPandas/tree/master<br /><br />

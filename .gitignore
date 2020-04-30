@@ -1,3 +1,8 @@
 ~$DistrictWiseData.xlsm
 .DS_Store
 .vscode/settings.json
+PM2p5/*.png
+PM10/*.png
+Ozone/*.png
+WithoutOverlay/
+*.code-workspace

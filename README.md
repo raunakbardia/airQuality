@@ -39,5 +39,5 @@ The github profile also had shape files for district level india boundaries - MA
 	5e. Finally, after matching the district names with Map #1, we merged it with pollution data set for all 365 days separately in a for loop to create 365 images each of PM2.5, PM10 and Ozone levels <br /><br />
 
 6. Converting it to video <br /><br />
-	6a. Using the ffmpeg project, the sequence of images could easily be converted into a video. As the image sizes reached a totla of about 1GB, I have only uploaded the videos for reference. <br /><br />
+	6a. Using the ffmpeg project, the sequence of images could easily be converted into a video. As the image sizes reached a total of about 1GB, I have only uploaded the videos for reference. <br /><br />
 	6b. The exact command was: ffmpeg -framerate 12 -i "Day %d.png" Ozone.avi 

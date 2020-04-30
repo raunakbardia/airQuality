@@ -1,5 +1,7 @@
 # airQuality
 
+Disclaimer: As the project evolved some file names may have been changed. Their references in other files may have to be updated accordingly.<br /><br />
+
 Sources:<br />
 Pollution Data - https://app.cpcbccr.com/ccr/#/caaqm-dashboard-all/caaqm-landing/caaqm-comparison-data <br /><br />
 India Maps:<br />

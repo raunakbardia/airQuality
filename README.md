@@ -18,7 +18,7 @@ Steps<br /><br />
 	1c. After the script is run, I manually selected the dates for which I needed the data, and submitted the request for pollution data. <br /><br />
 	1d. The query produces a table with an option to export the data in various formats. The Raw data that is downloaded is saved in "DistrictWiseData.xlsm" workbook in the "RawData" sheet. <br /><br />
 
-2. The raw data includes pollution levels monitores at each station. We converted this into city-level data by aggregating information from all stations within the city. <br /><br />
+2. The raw data includes pollution levels monitors at each station. We converted this into city-level data by aggregating information from all stations within the city. <br /><br />
 	2a. This is achieved using an Excel macro. The module is saved in "DistrictWiseData.xlsm" <br /><br />
 	2b. Resulting data consists of data for all 365 days of 2019 for 128 cities <br /><br />
 
